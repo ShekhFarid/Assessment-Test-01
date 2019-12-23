@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".first.FirstActivity"></activity>
+        <activity android:name=".product.ProductAdapter"></activity>
+        <activity android:name=".product.ProductActivity" />
+        <activity android:name=".product.productActivity" />
+        <activity android:name=".first.FirstActivity" />
         <activity
             android:name=".action_bar.Action_barActivity"
             android:theme="@style/AppTheme.FullScreen" />

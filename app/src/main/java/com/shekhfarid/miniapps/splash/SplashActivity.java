@@ -10,7 +10,7 @@ import android.util.Log;
 import com.shekhfarid.miniapps.MainActivity;
 import com.shekhfarid.miniapps.R;
 import com.shekhfarid.miniapps.action_bar.Action_barActivity;
-import com.shekhfarid.miniapps.home.HomeActivity;
+
 
 
 public class SplashActivity extends AppCompatActivity {

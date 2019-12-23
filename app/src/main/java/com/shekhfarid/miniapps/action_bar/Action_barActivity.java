@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.shekhfarid.miniapps.R;
+import com.shekhfarid.miniapps.product.ProductActivity;
 
-import com.shekhfarid.miniapps.home.HomeActivity;
 
 public class Action_barActivity extends AppCompatActivity {
 
@@ -23,7 +23,7 @@ private Button btn;
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Action_barActivity.this, HomeActivity.class);
+                Intent intent = new Intent(Action_barActivity.this, ProductActivity.class);
                 startActivity(intent);
                 finish();
             }
